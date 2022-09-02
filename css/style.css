@@ -83,19 +83,17 @@ a {
   text-decoration: none;
   outline: none;
   color: #fff;
-  background-color: #4CAF50;
+  background-color: orange;
   border: none;
   border-radius: 15px;
-  box-shadow: 0 9px #999;
 }
 
-.button:hover {background-color: #3e8e41}
 
 .button:active {
   background-color: #3e8e41;
-  box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+
 a:hover, a:active, a:focus {
   color: #17e7a4;
   outline: none;
