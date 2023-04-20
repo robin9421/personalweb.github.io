@@ -7,84 +7,143 @@
 <!--<![endif]-->
 
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Robin Prajapati</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="shortcut icon" href="images/r.ico">
-	<link rel="shortcut icon" href="favicon.ico">
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/font-awesome.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Robin Prajapati</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="images/r.ico">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="css/icomoon.css">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Theme style  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
 
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
+    <!-- Modernizr JS -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <style>
+        .button1 {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button1:hover span {
+  padding-right: 25px;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+    </style>
 </head>
 
 <body>
-<!-- 	 style="background-image: url(images/bg_name.png);background-repeat: repeat;" -->
+    <!-- 	 style="background-image: url(images/bg_name.png);background-repeat: repeat;" -->
 
-	<div id="fh5co-main">
-		<div class="fh5co-tab-wrap">
-			<ul class="fh5co-tab-menu">
-				<li class="active">
-					<a href="#" data-tab="1">
-						<span class="icon icon-user"></span>
-						<span class="menu-text">Profile</span>
-					</a>
-				</li>
-				
-				<li>
-					<a href="#" data-tab="4">
-						<span class="icon icon-phone"></span>
-						<span class="menu-text">Contact Me</span>
-					</a>
-				</li>
-			</ul>
-			<div class="fh5co-tab-content active" data-content="1">
-				<div class="fh5co-content-inner text-center">
-					<div class="row row-bottom-padded-sm">
-						<div class="col-md-12">
-							<figure>
-								<img id="img" style=" width: 200px;border-radius: 291px;" src="images/1.png" alt="robin">
-							</figure>
-							<div>
+    <div id="fh5co-main">
+        <div class="fh5co-tab-wrap">
+            <ul class="fh5co-tab-menu">
+                <li class="active">
+                    <a href="#" data-tab="1">
+                        <span class="icon icon-user"></span>
+                        <span class="menu-text">Profile</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" data-tab="4">
+                        <span class="icon icon-phone"></span>
+                        <span class="menu-text">Contact Me</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="fh5co-tab-content active" data-content="1">
+                <div class="fh5co-content-inner text-center">
+                    <div class="row row-bottom-padded-sm">
+                        <div class="col-md-12">
+                            <figure>
+                                <img id="img" style=" width: 200px;border-radius: 291px;" src="images/1.png"
+                                    alt="robin">
+                            </figure>
+                            <div>
                                 <h3>Hi! i'm <span class="col">Robin Prajapati.</span></h3>
-                                <h4 class="h4-mainpage">Pursuing my masters in Computer Science from Old Dominion University. Currently Based in <span class="col">Norfolk, VA (USA) </span>23508 , Born and raised in
-                                    <span class="col">Vapi, Gujarat (India)</span> 396-191 . </h4>
+                                <h4 class="h4-mainpage">I've consistently been a independent introvert who loves the
+                                    newest technology. In spite of the fact that it was always more of a hobby than a
+                                    career emphasis, I began learning to code when I was a teenager. I think that using
+                                    knowledge in a practical approach always affects how we understand things and
+                                    contributes to the creation of something significant and influential. I therefore
+                                    began working on research and projects that would benefit society while I was
+                                    pursuing my master's. I've learned a lot of fresh and intriguing technology as a
+                                    result of this. I am currently based in
+                                    <span class="col">Norfolk, VA (USA) </span>23508 , Born and brought up in
+                                    <span class="col">Vapi, Gujarat (India)</span> 396-191 .
+                                </h4>
                             </div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12">
-							<div  >
-                                <button style="color:#fff;" class="button"><a href="images/RobinResume.pdf" download>Resume</a></button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div>
+                                <button style="vertical-align:middle" class="button1"><span><a href="images/RobinResume.pdf"
+                                    download>Hover </a></span></button>
                             </div>
-							<div>
-								<h2>“Exploring online space”</h2>
-							</div>
-						</div>
-					</div>
-					<div>
-						<ul class="fh5co-social style-icons">
-							<li class="hov-ev"><a href="mailto:prajapatirobin123@gmail.com"><i class="fa fa-envelope"></i></a></li>
-							<li class="hov-tt"><a href="https://twitter.com/RobinPrajapati9"><i class="fa fa-twitter"></i></a></li>
-							<li class="hov-in"><a href="https://www.instagram.com/robin_prajapati/"><i class="fa fa-instagram"></i></a></li>
-							<li class="hov-g"><a href="https://plus.google.com/u/0/101397301798215765527"><i class="fa fa-google"></i></a></li>
-							<li class="hov-fb"><a href="https://www.facebook.com/robin.prajapati.3"><i class="fa fa-facebook"></i></a></li>
-							<li class="hov-li"><a href="https://www.linkedin.com/in/robin-prajapati-aa57a3147/"><i class="fa fa-linkedin"></i></a></li>
-							<li class="hov-git"><a href="https://github.com/robin9421"><i class="fa fa-github"></i></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
+                            <div>
+                                <h2>“Exploring online space”</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <ul class="fh5co-social style-icons">
+                            <li class="hov-ev"><a href="mailto:prrobin.mscs@gmail.com"><i
+                                        class="fa fa-envelope"></i></a></li>
+                            <li class="hov-tt"><a href="https://twitter.com/RobinPrajapati9"><i
+                                        class="fa fa-twitter"></i></a></li>
+                            <li class="hov-in"><a href="https://www.instagram.com/robin__prajapati/"><i
+                                        class="fa fa-instagram"></i></a></li>
+                            <li class="hov-g"><a href="https://plus.google.com/u/0/101397301798215765527"><i
+                                        class="fa fa-google"></i></a></li>
+                            <li class="hov-fb"><a href="https://www.facebook.com/robin.prajapati.3"><i
+                                        class="fa fa-facebook"></i></a></li>
+                            <li class="hov-li"><a href="https://www.linkedin.com/in/prrobin/"><i
+                                        class="fa fa-linkedin"></i></a></li>
+                            <li class="hov-git"><a href="https://github.com/robin9421"><i class="fa fa-github"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
-			<div class="fh5co-tab-content" data-content="3">
+            <div class="fh5co-tab-content" data-content="3">
                 <div class="fh5co-content-inner">
                     <div class="row">
                         <div class="col-md-13">
@@ -100,6 +159,7 @@
                             <button class="skills skills3">Hyperledger</button>
                             <button class="skills skills3">Ethereum</button>
                             <button class="skills skills3">Node.js</button>
+                            <button class="skills skills11">React.js</button>
                             <button class="skills skills11">Vue.js</button>
                             <button class="skills skills4">Javascript</button>
                             <button class="skills skills5">AJAX</button>
@@ -134,7 +194,9 @@
                             <div class="col-md-4 col-sm-4">
                                 <div class="contact-us-detail">
                                     <i class="fa fa-globe fa-4x"></i>
-                                    <h4><a class="map-popup" href="https://maps.google.com/maps?q=CS IS block+Acharya Institute of Technology+Soladevanhalli+bangalore+karnataka+India" title="Our Direction">Norfolk, VA</a></h4>
+                                    <h4><a class="map-popup"
+                                            href="https://maps.google.com/maps?q=CS IS block+Acharya Institute of Technology+Soladevanhalli+bangalore+karnataka+India"
+                                            title="Our Direction">Norfolk, VA</a></h4>
                                 </div>
                             </div>
                         </div>
@@ -146,34 +208,34 @@
         </div>
 
 
-		<footer id="fh5co-footer">
-			<div class="row">
-				<div class="col-md-6 col-md-offset-3 text-center">
-					<small>
-						&copy; 2021-2022 . All Rights Reserved.
-						<span class="fh5co-author">
-							Designed by
-							<a href="https://www.prrob.in" target="_blank">Robin Prajapati</a>
-						</span>
-					</small>
-				</div>
-			</div>
-		</footer>
-	</div>
+        <footer id="fh5co-footer">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                    <small>
+                        &copy; 2021-2022 . All Rights Reserved.
+                        <span class="fh5co-author">
+                            Designed by
+                            <a href="https://www.prrob.in" target="_blank">Robin Prajapati</a>
+                        </span>
+                    </small>
+                </div>
+            </div>
+        </footer>
+    </div>
 
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Easy PieChart -->
-	<script src="js/jquery.easypiechart.min.js"></script>
-	<!-- MAIN JS -->
-	<script src="js/main.js"></script>
-	<!-- <script src="js/img.js"></script> -->
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <!-- jQuery Easing -->
+    <script src="js/jquery.easing.1.3.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Waypoints -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <!-- Easy PieChart -->
+    <script src="js/jquery.easypiechart.min.js"></script>
+    <!-- MAIN JS -->
+    <script src="js/main.js"></script>
+    <!-- <script src="js/img.js"></script> -->
 </body>
 
 </html>
